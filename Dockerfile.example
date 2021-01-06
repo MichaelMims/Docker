@@ -1,0 +1,13 @@
+# # COMMANDS
+# FROM [baseImage]    # Base Docker Image
+# RUN                 # Used to build the image
+# MAINTAINER [name]   #
+# ADD [source] [destinaton]      # ADD [source] [destination]
+# COPY        # same as ADD
+# CMD         #
+# ENTRYPOINT  #
+# ENV         # environment variables / system variables
+# EXPOSE  [port]      # 
+# USER [UID] # Who runs the container
+# VOLUME [filesDirectory] # set dir
+# WORKDIR [directory]  # set directory where CMD command is excuted

@@ -17,7 +17,8 @@ COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # USER nobody
 
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["/usr/sbin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+
 # CMD ["./start_nginx.sh"]
 
 # CMD ["./setup_nginx.sh"]
@@ -35,4 +36,4 @@ CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 ############## build stage ##############
 
-############## runtine stage ##############
+############## runtine stage ############## 
